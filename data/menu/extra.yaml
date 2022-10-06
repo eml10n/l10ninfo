@@ -1,0 +1,6 @@
+---
+header:
+  - name: GitLab
+    ref: https://gitlab.com/eml10n/l10ninfo
+    icon: gdoc_gitlab
+    external: true

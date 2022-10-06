@@ -1,0 +1,23 @@
+---
+main:
+  - name: Get started
+    sub:
+      - name: Localize
+        ref: "localization"
+      - name: Join a localization event
+        ref: "events"
+      - name: Find a localization resource
+        ref: "resources"
+      - name: Follow a localizer
+        ref: "localizers"
+      - name: Internationalize
+        ref: "internationalization"
+  - name: 
+  - name: Contribute
+    sub:
+      - name: Host a localization event
+        ref: "events"
+      - name: Share a localization resource
+        ref: "resources"
+      - name: Create your profile
+        ref: "localizers"

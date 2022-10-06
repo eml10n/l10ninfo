@@ -12,7 +12,7 @@ This site serves as a platform for experienced and novice localizers to exchange
 - How to find an [event](/events/), a [resource](/resources/), or a [localizer](/localizers/)?
 - How to [internationalize](/internationalization/) something?
 
-This site is built with [Hugo static site generator](https://gohugo.io/) and is maintained in a [respository on GitLab](https://gitlab.com/eml10n/l10ninfo). You need access to the repository to create or edit pages on the site.
+This site is built using [Hugo static site generator](https://gohugo.io/) and is maintained in a [respository on GitLab](https://gitlab.com/eml10n/l10ninfo). You need access to the repository to create or edit pages on the site.
 
 If you are interested to contribute, you may request access by sending an email to [contribute@l10n.info](mailto:contribute@l10n.info) with answers to the following questions:
 

@@ -12,9 +12,7 @@ This site serves as a platform for experienced and novice localizers to exchange
 - How to find an [event](/events/), a [resource](/resources/), or a [localizer](/localizers/)?
 - How to [internationalize](/internationalization/) something?
 
-This site is built using [Hugo static site generator](https://gohugo.io/) and is maintained in a [respository on GitLab](https://gitlab.com/eml10n/l10ninfo). You need access to the repository to create or edit pages on the site.
-
-If you are interested to contribute, you may request access by sending an email to [contribute@l10n.info](mailto:contribute@l10n.info) with answers to the following questions:
+If you are interested to contribute to the knowledge base, you may request access by sending an email to [contribute@l10n.info](mailto:contribute@l10n.info) with answers to the following questions:
 
 1. What is your GitLab username or registered email?
 2. How would you like to contribute to the site?
@@ -22,4 +20,4 @@ If you are interested to contribute, you may request access by sending an email 
 4. Have you read, understood, and accepted the community [code of conduct](conduct)?
 5. Is there anything else you would like to share?
 
-Once you have access, you may start contribute by creating new pages or edit existing ones using GitLab Web IDE and commit changes to the main branch of the repository.
+This site is built using [Hugo static site generator](https://gohugo.io/) and is maintained in a [respository on GitLab](https://gitlab.com/eml10n/l10ninfo). Once you have access, you may start contribute by creating new Markdown pages or edit existing ones using GitLab Web IDE and commit changes to the main branch of the repository.

@@ -2,11 +2,11 @@
 title: Community Knowledge Base
 ---
 
-**L10N.INFO** is a community knowledge base by the contributors to the [EngageMedia Digital Security Localization project](https://engagemedia.org/projects/localization/).
+**L10N.INFO** is a community knowledge base by the contributors of [EngageMedia Digital Security Localization project](https://engagemedia.org/projects/localization/).
 
 The project primarily aims to enhance the effectiveness of digital security initiatives in Southeast Asia by providing and promoting resources tailored to cultural and linguistic contexts. It focuses on five target languages: Burmese, Filipino, Indonesian, Khmer, and Thai.
 
-This site serves as a platform for experienced and novice localizers to exchange knowledge and share about their work. On this site, you will (hopefully) be able to find answers to questions such as:
+This site serves as a platform for experienced and novice localizers to exchange knowledge and share their work. On this site, you will be able to find answers to questions such as:
 
 - How to start [localizing](/localization/) an application or a content?
 - How to find an [event](/events/), a [resource](/resources/), or a [localizer](/localizers/)?

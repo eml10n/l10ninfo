@@ -22,4 +22,4 @@ If you are interested to contribute, you may request access by sending an email 
 4. Have you read, understood, and accepted the community [code of conduct](conduct)?
 5. Is there anything else you would like to share?
 
-Once you have access to the repository, you may start contribute by creating new pages or edit existing ones.
+Once you have access, you may start contribute by creating new pages or edit existing ones using GitLab Web IDE and commit changes to the main branch of the repository.

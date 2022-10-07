@@ -14,6 +14,7 @@ Venue: TBC
 Signup: Email [khairil@engagemedia.org](mailto:khairil@engagemedia.org)
 Agenda:
 - Check-in/introductions
+- DFAK intro/recap
 - Style guide
 - Group review
 - Retrospective

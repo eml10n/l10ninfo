@@ -1,7 +1,8 @@
 ---
 title: Events
 aliases:
-- /signup/
+- /signup
+- /sprint
 ---
 
 {{< toc (format=[html|raw]) >}}

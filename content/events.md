@@ -5,7 +5,7 @@ aliases:
 - /sprint
 ---
 
-{{< toc (format=[html|raw]) >}}
+{{< toc >}}
 
 ## L10N MNL November Meetup
 

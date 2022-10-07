@@ -2,10 +2,6 @@
 title: Community Knowledge Base
 ---
 
-<div style="float: right">
-![Localization](https://l10n.info/images/EM-Localisation-Thumbnail_Study-1B_03172022.jpeg)
-</div>
-
 **L10N.INFO** is a community knowledge base by the contributors to the [EngageMedia Digital Security Localization project](https://engagemedia.org/projects/localization/).
 
 The project primarily aims to enhance the effectiveness of digital security initiatives in Southeast Asia by providing and promoting resources tailored to cultural and linguistic contexts. It focuses on five target languages: Burmese, Filipino, Indonesian, Khmer, and Thai.

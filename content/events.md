@@ -3,6 +3,7 @@ title: Events
 aliases:
 - /signup
 - /sprint
+- /sprints
 ---
 
 {{< toc >}}

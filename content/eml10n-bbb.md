@@ -1,9 +1,11 @@
 ---
-title: EngageMedia Localization BigBlueButton
+title: EngageMedia Localization Jitsi
+alias:
+- /eml10n-bbb/
 ---
 
-The EngageMedia Localization team maintains a self-hosted BigBlueButton instance at [bbb.l10n.info](https://bbb.l10n.info).
+The EngageMedia Localization team maintains a self-hosted Jitsi instance at [l10n.party](https://l10n.party).
 
-This BigBlueButton instance is hosted in Singapore and is available as a resource to EngageMedia contributons to organise virtual localization meetups, sprints, and other meetings.
+This Jitsi instance is hosted in Singapore and is available as a resource to EngageMedia contributons to organise virtual localization meetups, sprints, and other meetings.
 
-Registration on this BigBlueButton instance is by invitation only. To request an invite, please email [bbb@l10n.info](mailto:bbb@l10n.info).
+The previous BigBlueButton meeting links (`bbb.l10n.info`) are now mapped to `l10n.party`.

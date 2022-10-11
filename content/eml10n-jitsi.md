@@ -1,6 +1,6 @@
 ---
 title: EngageMedia Localization Jitsi
-alias:
+aliases:
 - /eml10n-bbb/
 ---
 

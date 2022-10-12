@@ -21,3 +21,10 @@ main:
         ref: "resources"
       - name: Create your profile
         ref: "localizers"
+  - name: 
+  - name: Community Resources
+    sub:
+      - name: L10N.PARTY
+        ref: "https://l10n.party/"
+      - name: L10N.SPACE
+        ref: "https://l10n.space/"

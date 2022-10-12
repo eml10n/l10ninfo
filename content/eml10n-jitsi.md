@@ -12,4 +12,4 @@ The previous BigBlueButton meeting links (`bbb.l10n.info`) are now mapped to `l1
 
 The Jitsi site uses Cloudflare Security to prevent bots. Users will usually see an intersitial page that perform a number of checks on the site connection to the browser.
 
-![Cloudflare interstitial page](l10nparty-cloudflare-interstitial-page.jpg)
+![Cloudflare interstitial page](/images/l10nparty-cloudflare-interstitial-page.jpg)

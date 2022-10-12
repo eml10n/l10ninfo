@@ -4,7 +4,7 @@ aliases:
 - /eml10n-bbb/
 ---
 
-The EngageMedia Localization team maintains a self-hosted Jitsi instance at [l10n.party](https://l10n.party).
+[L10N.PARTY](https://l10n.party) is a self-hosted Jitsi instance maintained by the EngageMedia team for its localization community.
 
 This Jitsi instance is hosted in Singapore and is available as a resource to EngageMedia contributors to organise virtual localization meetups, sprints, and other meetings.
 

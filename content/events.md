@@ -12,7 +12,7 @@ aliases:
 - Date: 15, 22, and 29 October
 - Time: 8:45 AM to 11:45
 - Venue: [Blockchain Cafe](https://goo.gl/maps/exAviqj5JsrDGEpv5)
-- Signup: [Google Form](https://goo.gl/maps/exAviqj5JsrDGEpv5)
+- Signup: [Google Form](https://forms.gle/y76FWjV3SWGpQKRb8)
 
 ## Digital First Aid Kit Localization into Filipino
 - Date: 19 November 2022

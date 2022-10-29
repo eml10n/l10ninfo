@@ -1,6 +1,7 @@
 ---
 title: Indonesian (Bahasa Indonesia)
-alias: id
+aliases: 
+- id
 ---
 
 ## Language Resources

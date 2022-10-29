@@ -11,4 +11,4 @@ aliases:
 
 ## Common terminologies
 
-| Web browser | เว็บเบราว์เซอร์ |
+Web browser เว็บเบราว์เซอร์

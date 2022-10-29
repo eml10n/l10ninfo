@@ -4,7 +4,7 @@ title: Thai
 
 ## language Resources
 
-Test
+Thai languge - http://www.thai-language.com/
 
 
 ## Common terminologies

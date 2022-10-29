@@ -4,8 +4,11 @@ title: Malay (Bahasa Melayu)
 
 ## Language Resources
 
-PRPM https://prpm.dbp.gov.my/ – a dictionary by Dewan Bahasa dan Pustaka
+1. [PRPM – Pusat Rujukan Persuratan Melayu](https://prpm.dbp.gov.my/) – online language resources by Dewan Bahasa dan Pustaka
+2. [Etisas – Portal Maya Istilah Sains](http://appsmu.ukm.my/etisas/) – science and technology terminologies by the National University of Malaysia
 
 ## Common terminologies
 
-Web browser = palayar web
+| English | Malay |
+| --- | ----------- |
+| web browser | palayar web |

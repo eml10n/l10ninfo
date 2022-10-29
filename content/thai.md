@@ -1,10 +1,12 @@
 ---
 title: Thai 
+aliases:
+- th
 ---
 
 ## language Resources
 
-Thai languge - http://www.thai-language.com/
+[thai-language.com](http://www.thai-language.com/) – easy to use online dictionary
 
 
 ## Common terminologies

@@ -12,7 +12,7 @@ aliases:
 
 | Title | Date | Time | Venue | Info |
 | ----- | ---- | ---- | ----- | ---- |
-| Digital First Aid Kit Localization into Filipino | 19 Nov 2022 (Sat) | 10 AM - 5 PM | Quezon City, Metro Manila + Silay City, Negros Occidental + Virtual Meeting Link | [Cryptpad Form](https://cryptpad.fr/form/#/2/form/view/-l+8BkiV8Mo9vvYBQJdhC89zBR8E-L+qpj7-c8HCTzQ/) |
+| Digital Safety Localization Sprint | 19 Nov 2022 (Sat) | 10 AM - 5 PM | Quezon City, Metro Manila + Silay City, Negros Occidental + Virtual Meeting Link | [Cryptpad Form](https://cryptpad.fr/form/#/2/form/view/-l+8BkiV8Mo9vvYBQJdhC89zBR8E-L+qpj7-c8HCTzQ/) |
 
 
 ## Past events

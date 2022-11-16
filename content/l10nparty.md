@@ -2,6 +2,7 @@
 title: EngageMedia Localization Jitsi
 aliases:
 - /eml10n-bbb/
+- /eml10n-jitsi/
 ---
 
 [L10N.PARTY](https://l10n.party) is a self-hosted [Jitsi](https://jitsi.org/) instance maintained by the EngageMedia team for its localization community.

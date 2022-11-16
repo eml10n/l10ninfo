@@ -1,5 +1,7 @@
 ---
 title: EngageMedia Localization Weblate
+alias:
+- /eml10n-weblate/
 ---
 
 [L10N.SPACE](https://l10n.party) is a self-hosted Weblate instance maintained by the EngageMedia team for its localization community.

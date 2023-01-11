@@ -1,6 +1,6 @@
 ---
 baseURL: /
-title: l10n.directory
+title: l10n.info
 theme: hugo-geekdoc
 
 pygmentsUseClasses: true

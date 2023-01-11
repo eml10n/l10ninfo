@@ -1,0 +1,32 @@
+---
+geekdocToC: 3
+
+geekdocLogo: media/l10n.info.svg
+geekdocMenuBundle: true
+geekdocCollapseAllSections: true
+
+geekdocNextPrev: false
+geekdocBreadcrumb: false
+
+geekdocRepo: 'https://gitlab.com/-/ide/project/eml10n/l10ninfo'
+geekdocEditPath: edit/main/-
+
+geekdocSearch: true
+geekdocSearchShowParent: true
+
+geekdocPrivacyPolicy: /privacy/
+
+geekdocAnchor: true
+geekdocAnchorCopy: true
+
+geekdocImageLazyLoading: true
+geekdocOverwriteHTMLBase: false
+geekdocDarkModeDim: false
+geekdocDarkModeCode: false
+
+geekdocBackToTop: true
+
+geekdocTagsToMenu: true
+
+geekdocFileTreeSortBy: title
+---

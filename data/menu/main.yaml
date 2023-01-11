@@ -12,7 +12,10 @@ main:
         ref: "localizers"
       - name: Internationalize
         ref: "internationalization"
+
   - name: 
+  - name: 
+
   - name: Contribute
     sub:
       - name: Host a localization event
@@ -21,13 +24,19 @@ main:
         ref: "resources"
       - name: Create your profile
         ref: "localizers"
+        
   - name: 
+  - name: 
+
   - name: Weblate
     sub:
       - name: L10N.SPACE
         ref: "https://l10n.space/"
         external: true
+        
   - name: 
+  - name: 
+
   - name: Jitsi
     sub:
       - name: L10N.PARTY

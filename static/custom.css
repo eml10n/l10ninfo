@@ -155,6 +155,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;700&family=Noto+Sans+Mono&family=Noto+Sans+Myanmar:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+html {
+  font-size: 13.75px;
+  letter-spacing: .416665px;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
 }
@@ -169,7 +174,8 @@ code, .gdoc-error__title {
   font-weight: bold;
 }
 
-.gdoc-nav {
+.gdoc-nav--main h2 {
+  display: none;
 }
 
 .gdoc-nav__list ul {

@@ -1,0 +1,181 @@
+backend:
+  name: github
+  repo: eml10n/l10ninfo
+  branch: main
+  base_url: https://l10n.info
+  auth_endpoint: api/auth
+media_folder: static/files
+public_folder: /files
+site_url: https://l10n.info
+display_url: https://l10n.info
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    preview_path: '{{filename}}'
+    editor:
+      preview: false
+    show_preview_links: true
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        required: false
+      - label: 'Categories'
+        name: 'categories'
+        widget: 'list'
+        required: false
+      - label: 'Series'
+        name: 'series'
+        widget: 'list'
+        required: false
+      - label: 'External Link'
+        name: 'externalLink'
+        widget: 'string'
+        required: false
+      - label: 'Featured Image'
+        name: 'featuredImage'
+        widget: 'image'
+        required: false
+      - label: 'Enable MathJax'
+        name: 'math'
+        widget: 'boolean'
+        required: false
+      - label: 'Enable katex'
+        name: 'katex'
+        widget: 'boolean'
+        required: false
+      - label: 'Disable Comments'
+        name: 'disableComments'
+        widget: 'boolean'
+        required: false
+      - label: 'Aliases'
+        name: 'aliases'
+        widget: 'list'
+        required: false
+      - label: 'Timestamp'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Draft'
+        name: 'draft'
+        widget: 'boolean'
+        default: false
+      - label: 'Type'
+        name: 'type'
+        widget: 'select'
+        options:
+          - label: 'Post'
+            value: 'post'
+          - label: 'Page'
+            value: 'page'
+          - label: 'Redirect'
+            value: 'redirect'
+        default: 'post'
+    sortable_fields: 
+      - 'title'
+      - 'date'
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: 'content'
+    filter:
+      field: type
+      value: page
+    create: true
+    slug: '{{slug}}'
+    preview_path: '{{filename}}'
+    editor:
+      preview: false
+    show_preview_links: true
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'External Link'
+        name: 'externalLink'
+        widget: 'string'
+        required: false
+      - label: 'Slug'
+        name: 'url' 
+        widget: 'string'
+        required: false
+      - label: 'Aliases'
+        name: 'aliases'
+        widget: 'list'
+        required: false
+      - label: 'Timestamp'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Draft'
+        name: 'draft'
+        widget: 'boolean'
+        default: false
+      - label: 'Type'
+        name: 'type'
+        widget: 'select'
+        options:
+          - label: 'Post'
+            value: 'post'
+          - label: 'Page'
+            value: 'page'
+          - label: 'Redirect'
+            value: 'redirect'
+        default: 'page'
+    sortable_fields: 
+      - 'title'
+      - 'date'
+  - name: 'redirects'
+    label: 'Redirects'
+    label_singular: 'Redirect'
+    folder: 'content'
+    filter:
+      field: type
+      value: redirect
+    create: true
+    slug: '{{fields.url}}'
+    preview_path: '{{fields.url}}'
+    editor:
+      preview: false
+    show_preview_links: true
+    summary: "/{{fields.url}} → {{fields.externalLink}}"
+    fields:
+      - label: 'External Link'
+        name: 'externalLink'
+        widget: 'string'
+      - label: 'Slug'
+        name: 'url' 
+        widget: 'string'
+        pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
+      - label: 'Timestamp'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Draft'
+        name: 'draft'
+        widget: 'boolean'
+        default: false
+      - label: 'Type'
+        name: 'type'
+        widget: 'select'
+        options:
+          - label: 'Post'
+            value: 'post'
+          - label: 'Page'
+            value: 'page'
+          - label: 'Redirect'
+            value: 'redirect'
+        default: 'redirect'
+    sortable_fields: 
+      - 'title'
+      - 'date'

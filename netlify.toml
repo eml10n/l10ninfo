@@ -4,3 +4,4 @@ command = "hugo"
 
 [build.environment]
 HUGO_VERSION = "0.109.0"
+GIT_OAUTH_CLIENT_ID = "2e1983b40d923d2173716afcd8b9743587d5435f5a0a102dca502d8ad45243fb"

@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: gitlab
   repo: eml10n/l10ninfo
   branch: main
   base_url: https://l10n.info

@@ -14,12 +14,6 @@ aliases:
 5. [English-Thai Parallel Concordance Search](https://www.arts.chula.ac.th/~ling/ParaConc/) – Department of Linguistics, Chulalongkorn University
 6. [Cambridge English-Thai Dictionary](https://dictionary.cambridge.org/dictionary/english-thai/)
 
-## Common Terminologies
-
-| English | Thai |
-|--|--|
-| Web browser | เว็บเบราว์เซอร์ |
-
 ## Priority Projects
 
  - [Digital Hygiene 101 – EngageMedia](https://engagemedia.org/2022/digital-hygiene-safety-security/) – [Translate on Weblate](https://l10n.space/projects/engagemedia/digital-hygiene-safety-security/th/)

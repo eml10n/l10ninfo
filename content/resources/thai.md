@@ -13,6 +13,7 @@ aliases:
 4. [Digital Government Standard](https://standard.dga.or.th/glossary/)
 5. [English-Thai Parallel Concordance Search](https://www.arts.chula.ac.th/~ling/ParaConc/) – Department of Linguistics, Chulalongkorn University
 6. [Cambridge English-Thai Dictionary](https://dictionary.cambridge.org/dictionary/english-thai/)
+7. [Longdo Dict](https://dict.longdo.com/)
 
 ## Priority Projects
 

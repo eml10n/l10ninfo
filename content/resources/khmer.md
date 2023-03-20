@@ -1,6 +1,7 @@
 ---
 title: Khmer (ភាសាខ្មែរ)
 alias:
-- /km
-- /khm
+- km
+- khm
+- ភាសាខ្មែរ
 ---

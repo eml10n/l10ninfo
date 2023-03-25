@@ -29,6 +29,7 @@ While tools like Google Translate and Microsoft Translator are getting better, t
 You may find variables or placeholders in the source strings. Instead of translating these variables or placeholders, you need to keep them in the translated strings where they should appear keeping in mind consistent grammar and style. Depending on how the developers internationalize the application or software, the variables or placeholders are typically enclosed in brackets, braces, chevrons, percents, underscores, or any combination of these symbols:
 
     [something]	[[something]]	{something}	{{something}}
+
     <something>	%something%	<%something%>	__something__
 
 Sometimes, variables and placeholders may appear with a single per cent sign:
@@ -39,7 +40,7 @@ Sometimes, variables and placeholders may appear with a single per cent sign:
 
 	Float variable		%f	1%f	2%f	3%f
 
-	Double variable	      %lf	1%lf	2%lf	3%lf
+	Double variable	     %lf	1%lf	2%lf	3%lf
 
 	String variable	%s	1%s	2%s	3%s
 

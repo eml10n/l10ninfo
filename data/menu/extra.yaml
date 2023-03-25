@@ -1,6 +1,5 @@
 ---
 header:
-  - name: GitLab
-    ref: https://gitlab.com/eml10n/l10ninfo
-    icon: gdoc_gitlab
+  - name: L10N.SPACE
+    ref: "https://l10n.space/"
     external: true

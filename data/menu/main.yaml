@@ -1,36 +1,22 @@
 ---
 main:
-  - name: Get started
-    sub:
-      - name: General Guide
-        ref: "localization"
-      - name: (မြန်မာဘာသာ)
-        ref: "burmese"
-      - name: Indonesian (Bahasa Indonesia)
-        ref: "indonesian"
-      - name: Filipino
-        ref: "filipino"
-      - name: Khmer (ភាសាខ្មែរ)
-        ref: "khmer"
-      - name: Thai (ไทย)
-        ref: "thai"
+  - name: General Guide
+    ref: "localization"
+  - name: (မြန်မာဘာသာ)
+    ref: "burmese"
+  - name: Indonesian (Bahasa Indonesia)
+    ref: "indonesian"
+  - name: Filipino
+    ref: "filipino"
+  - name: Khmer (ភាសាខ្មែរ)
+    ref: "khmer"
+  - name: Thai (ไทย)
+    ref: "thai"
 
   - identifier: spacer1
     external: true
 
   - identifier: spacer2
-    external: true
-
-  - name: Community Weblate
-    sub:
-      - name: L10N.SPACE
-        ref: "https://l10n.space/"
-        external: true
-
-  - identifier: spacer3
-    external: true
-
-  - identifier: spacer4
     external: true
 
   - name: Code of Conduct
@@ -39,3 +25,9 @@ main:
     ref: "copyright"
   - name: Privacy Policy
     ref: "privacy"
+
+  - identifier: spacer3
+    external: true
+
+  - identifier: spacer4
+    external: true

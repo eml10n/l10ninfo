@@ -14,7 +14,7 @@ geekdocEditPath: edit/main/-
 geekdocSearch: true
 geekdocSearchShowParent: true
 
-geekdocPrivacyPolicy: /privacy/
+geekdocPrivacyPolicy: false
 
 geekdocAnchor: true
 geekdocAnchorCopy: true

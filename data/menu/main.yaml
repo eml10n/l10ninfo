@@ -2,7 +2,7 @@
 main:
   - name: General Guide
     ref: "localization"
-  - name: (မြန်မာဘာသာ)
+  - name: Burmese (မြန်မာဘာသာ)
     ref: "burmese"
   - name: Indonesian (Bahasa Indonesia)
     ref: "indonesian"

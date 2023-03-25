@@ -39,9 +39,9 @@ Sometimes, variables and placeholders may appear with a single per cent sign:
 
 	Float variable		%f	1%f	2%f	3%f
 
-	Double variable	        %lf	1%lf	2%lf	3%lf
+	Double variable	      %lf	1%lf	2%lf	3%lf
 
-	String variable		%s	1%s	2%s	3%s
+	String variable	%s	1%s	2%s	3%s
 
 	Octa variable		%o	1%o	2%o	3%o
 

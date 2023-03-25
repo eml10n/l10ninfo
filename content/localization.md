@@ -2,6 +2,13 @@
 title: Localization
 ---
 
+## Translation vs Localization vs Internationalization vs Globalization
+
+- [The Definition of Globalization, Internationalization, Localization, and Translation (GILT)](https://www.adverbum.com/en/blog/globalization-internationalization-localization-translation) – AD VERBUM
+- [Localization, Globalization, Internationalization: What's the Difference? – The subtleties that distinguish "going global" terminology](https://www.lionbridge.com/blog/translation-localization/localization-globalization-internationalization-whats-the-difference/) – Lionbridge
+- [What is the difference between Localization, Globalization and Internationalization?](https://lptranslations.com/learn/difference-localization-globalization-internationalization/) – LingPerfect
+- [Globalization vs. Internationalization vs. Localization]() – Summa Linguae
+
 ## Dos and Don'ts
 
 #### Do familiarise yourself with the article or application

@@ -157,7 +157,7 @@
 
 html {
   font-size: 1rem;
-  letter-spacing: 1.5;
+  letter-spacing: 1.75;
 }
 
 body {
@@ -174,10 +174,6 @@ code, .gdoc-error__title {
   font-weight: bold;
 }
 
-.gdoc-nav--main h2 {
-  display: none;
-}
-
 .gdoc-nav__list ul {
   padding-left: 0;
 }
@@ -187,3 +183,35 @@ code, .gdoc-error__title {
   color: #eb1c23;
 }
 
+:root .gdoc-footer__item .logo {
+  height: 1.67em;
+  padding: 0 0.33em;
+}
+
+:root .gdoc-footer__item .logo.light-logo,
+:root[color-theme="light"] .gdoc-footer__item .logo.light-logo { display: inline-block; }
+:root .gdoc-footer__item .logo.dark-logo,
+:root[color-theme="light"] .gdoc-footer__item .logo.dark-logo { display: none; }
+
+@media (prefers-color-scheme: light) {
+  :root .gdoc-footer__item .logo.light-logo { display: inline-block; }
+  :root .gdoc-footer__item .logo.dark-logo { display: none; }
+}
+
+:root[color-theme="dark"] .gdoc-footer__item .logo.light-logo { display: none; }
+:root[color-theme="dark"] .gdoc-footer__item .logo.dark-logo { display: inline-block; }
+
+@media (prefers-color-scheme: dark) {
+  :root .gdoc-footer__item .logo.light-logo { display: none; }
+  :root .gdoc-footer__item .logo.dark-logo { display: inline-block; }
+    display: none;
+}
+
+.gdoc-nav__entry .flex .label {
+  margin-left: 0.33em;
+}
+
+.gdoc-language__list,
+.gdoc-language__list li {
+  padding: .25em;
+}

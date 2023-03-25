@@ -1,5 +1,5 @@
 ---
-title: Localization
+title: A General Guide to Localization
 ---
 
 ## Translation vs Localization vs Internationalization vs Globalization

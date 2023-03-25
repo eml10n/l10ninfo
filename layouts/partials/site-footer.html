@@ -2,13 +2,14 @@
     <nav class="container flex">
       <div>
         <section class="flex flex-wrap align-center">
-          <span class="gdoc-footer__item gdoc-footer__item--row">
-            <a href="/conduct/" class="gdoc-footer__link">Code of Conduct</a>
-          </span>
-          <span class="gdoc-footer__item gdoc-footer__item--row">
-            <a href="/copyright/" class="gdoc-footer__link">Copyright Notice</a>
-          </span>
-          {{ with .Site.Params.GeekdocLegalNotice }}
+            <span class="gdoc-footer__item gdoc-footer__item--row">
+              A community initiative by 
+              <a href="https://engagemedia.org/">
+                <img src="https://assets.engagemedia.org/logotype-red-white.svg" alt="EngageMedia" class="logo dark-logo">
+                <img src="https://assets.engagemedia.org/logotype-red-black.svg" alt="EngageMedia" class="logo light-logo">
+              </a>                      
+            </span>
+            {{ with .Site.Params.GeekdocLegalNotice }}
             <span class="gdoc-footer__item gdoc-footer__item--row">
               <a href="{{ . | relURL }}" class="gdoc-footer__link">
                 {{ i18n "footer_legal_notice" }}

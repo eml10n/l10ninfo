@@ -59,5 +59,27 @@ Another way variables or placeholders typically appear in strings is with a sing
 
 	$something1     $something2     $something3
 
+#### Don't translate everything in a front matter
+
+The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains meta data about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, which starts and end with `+++`, or YAML/YML, which starts and end with `---`. For example:
+
+	+++
+	title = 'TOML front matter'
+	description = 'This is a page framt matter in TOML'
+	translated: false
+	date: 2023-01-01
+	+++
+
+	---
+	title: YAML/YML
+	description: This is a page front matter in YAML/YML
+	translated: true
+	date: 2023-01-01
+	draft: true
+	---
+
+Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of title and description should be translated and everything else should be kept the same. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+
 #### Don't start translating without understanding a product
+
 Localization is not just about transforming text from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product available and accessible in other languages taking into account the appropriate contexts and experiences of the end-user using the product. This requires you, as a localizer, to understand how the product works from the end-user perspective.

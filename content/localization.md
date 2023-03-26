@@ -156,7 +156,7 @@ Watch out for semantic elements that have HTML tags in English:
 		...
 	</footer>
 
-You should not translate the HTML tags and only do the text inside the HTML element that should appear in the target language. Some HTML tags contain attributes like `title`, `alt`, `description`, and others. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+You should not translate an HTML tag and only do the text inside the HTML element that should appear in the target language. Some HTML tags contain attributes like `title`, `alt`, `description`, and others. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
 #### Don't start translating without understanding a product
 

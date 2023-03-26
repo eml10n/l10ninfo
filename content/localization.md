@@ -119,7 +119,7 @@ Do not translate the keys and only translate the values that should appear in th
 
 #### Don't translate everything in HTML elements
 
-HTML elements help internet browsers render a webpage. A link element is usually written with HTML tag `<a>`:
+HTML elements help internet browsers render a web page. A link element is usually written with HTML tag `<a>`:
 
 	<a href="https://engagemedia.org/" title="EngageMedia">This is a link that you can click</a>
 

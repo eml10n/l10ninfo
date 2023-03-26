@@ -13,23 +13,23 @@ title: A General Guide to Localization
 
 #### Do familiarise yourself with the article or application
 
-Before you start translating, you should familiarise yourself with the product. If you are translating an article or a piece of writing, read it first. If you are translating an application or a piece of software, try it first. Consider who might be reading the article or using the application and why they are doing it. This will help you form a better idea of the style and tone that you should use in your translation.
+Before you start translating, you should familiarise yourself with the product. If you are translating an article or a piece of writing, read it first. If you are translating an application or a piece of software, try it first. Consider who might be reading the article or using the application, how they are likely to be reading or using it, and for what purpose. This will help you form a better idea of the style and tone that you should use in your translation.
 
 #### Do refer to the style guide and glossary
 
-A well-maintained localization project would have a robust style guide and glossary to ensure consistency and accuracy of translations across different target languages. You should refer to these resources when translating.
+A well-maintained localization project would have a robust style guide and glossary to ensure consistency and accuracy of translations across different target languages. If they are available, you should make full use of these resources when translating.
 
 #### Do look up similar translations
 
-You can use the search function to look up similar translations in the same target language. If you are familiar with languages that belong to the same genus, you can also look up similar translations across different languages. Doing this will help ensure consistency and accuracy when translating.
+You can use the search function in the continuous translation tool that you are using to look up similar translations in the same target language. If you are familiar with languages that belong to the same genus, you can also look up similar translations across different languages. Doing this will help ensure consistency and accuracy when translating.
 
 #### Do give feedback and ask questions
 
-Use the commenting function to give feedback and ask questions. This helps the localization project managers and other localizers improve the translation. For example, you give feedback on how to improve the grammar, style, tone and terminology of a string or ask questions to get more context and understand the application of a particular string. 
+Use the commenting function to give feedback and ask questions. This helps the localization project managers and other localizers improve the translation. For example, you give feedback to other localizers on how to improve the grammar, style, tone and terminology used in the translation or ask questions to the project managers to get more context and understand the where a particular string might appear in the user interface. 
 
 #### Don't rely on machine translation
 
-While tools like Google Translate and Microsoft Translator are getting better, they are not always reliable. You may use them to give you suggestions on how to translate a string but they should never be used without human editing. Relying on machine translation will make the reviewing process more difficult and time-consuming as more work needs to be done to ensure consistency in grammar, style, tone, and terminology. 
+While tools like Google Translate and Microsoft Translator are getting better with large language model, they are not always reliable because of the imperfect feedback loop. You may use them to give you suggestions on how to translate a string but they should never be accepted completely without human checking and editing. Relying on machine translation will make the localization review and testing process more difficult and time-consuming as more work needs to be done to ensure consistency and accuracy. 
 
 #### Don't translate variables or placeholders
 

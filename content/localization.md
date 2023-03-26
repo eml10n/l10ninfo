@@ -1,15 +1,20 @@
 ---
 title: A General Guide to Localization
+alias:
+- general
+- generalguide
+- guide
+- quickguide
 ---
 
-## Translation vs Localization vs Internationalization vs Globalization
+## Translation vs localization vs internationalization vs globalization
 
 - [Introduction to globalization](https://helpx.adobe.com/coldfusion/developing-applications/developing-cfml-applications/developing-globalized-applications/introduction-to-globalization.html) – Adobe
 - [Localization Strategy: What Is I18n? A Simple Definition of Internationalization](https://phrase.com/blog/posts/i18n-a-simple-definition/) – Phrase
 - [Localization VS Globalization VS Internationalization VS Translation](https://www.milestoneloc.com/localization-vs-globalization-vs-internationalization-vs-translation/) – Kristina Temelkova, Milestone Localization
 - [Software Translation, Localization, Internationalization, Globalization: What’s The Difference?](https://www.at-it-translator.com/software-translation-localization-internationalization-globalization-whats-the-difference/) – Anthony Teixeira
 
-## Dos and Don'ts
+## Dos and don'ts
 
 #### Do familiarise yourself with the article or application
 
@@ -150,3 +155,8 @@ You should not translate the HTML tags and only do the text inside the HTML elem
 #### Don't start translating without understanding a product
 
 Localization is not just about transforming text from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product available and accessible in other languages taking into account the appropriate contexts and experiences of the end-user using the product. This requires you, as a localizer, to understand how the product works from the end-user perspective.
+
+### See also
+
+- [Translation and Review Guidelines](https://wiki.localizationlab.org/index.php/Translation_and_Review_Guidelines) – Localization Lab
+- [Dos and Don'ts in Content Translation](https://blog.pangeanic.com/dos-and-donts-in-content-translation) – Aurora Ramírez, Pangeanic

@@ -61,7 +61,7 @@ Another way variables or placeholders typically appear in strings is with a sing
 
 #### Don't translate everything in a front matter
 
-The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains meta data about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
+The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains metadata about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
 
 	---
 	categories:
@@ -70,7 +70,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 	- Localization
 	- Translation
 	date: "2012-04-06"
-	description: An example of front matter writting in YAML/YML.
+	description: An example of front matter written in YAML/YML.
 	slug: yaml-yml-front-matter-example
 	tags:
 	- General Guide
@@ -81,7 +81,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 	+++
 	categories = ['Globalization', 'Internationalization', 'Localization', 'Translation']
 	date = '2012-04-06'
-	description = 'An example of front matter writting in TOML.'
+	description = 'An example of front matter written in TOML.'
 	slug = 'toml-front-matter-example'
 	tags = ['General Guide', 'Translation Guide']
 	title = 'TOML example'
@@ -95,7 +95,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 			"Translation"
 		],
 		"date": "2012-04-06",
-		"description": "An example of front matter writting in JSON.",
+		"description": "An example of front matter written in JSON.",
 		"slug": "json-front-matter-example",
 		"tags": [
 			"General Guide",
@@ -104,11 +104,11 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 		"title": "JSON example"
 	}
 
-Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+Do not translate the keys and only translate the values that should appear in the target language. In the above example, only the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
 #### Don't translate everything in HTML elements
 
-HTML elements help internet browsers render a webpage. A link element usually written with HTML tag `<a>`:
+HTML elements help internet browsers render a webpage. A link element is usually written with HTML tag `<a>`:
 
 	<a href="https://engagemedia.org/" title="EngageMedia">This is a link that you can click</a>
 
@@ -116,14 +116,14 @@ An image has `<img>` tag:
 
 	<img src="https://assets.engagemedia.org/logomark-white.svg" alt="EngageMedia Logomark in White">
 
-Watch out for semantic elements that has English HTML tags:
+Watch out for semantic elements that have English HTML tags:
 
 	<header>
 		...
 	</header>
 
 	<article>
-		Some content to the article
+		Some content of the article
 		<br>
 		Another line of this content
 	</article>

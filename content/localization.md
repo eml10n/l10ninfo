@@ -61,24 +61,91 @@ Another way variables or placeholders typically appear in strings is with a sing
 
 #### Don't translate everything in a front matter
 
-The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains meta data about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, which starts and end with `+++`, or YAML/YML, which starts and end with `---`. For example:
-
-	+++
-	title = 'TOML front matter'
-	description = 'This is a page framt matter in TOML'
-	translated: false
-	date: 2023-01-01
-	+++
+The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains meta data about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
 
 	---
-	title: YAML/YML
-	description: This is a page front matter in YAML/YML
-	translated: true
-	date: 2023-01-01
-	draft: true
+	categories:
+	- Globalization
+	- Internationalization
+	- Localization
+	- Translation
+	date: "2012-04-06"
+	description: An example of front matter writting in YAML/YML.
+	slug: yaml-yml-front-matter-example
+	tags:
+	- General Guide
+	- Translation Guide
+	title: YAML/YML example
 	---
 
-Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of title and description should be translated and everything else should be kept the same. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+	+++
+	categories = ['Globalization', 'Internationalization', 'Localization', 'Translation']
+	date = '2012-04-06'
+	description = 'An example of front matter writting in TOML.'
+	slug = 'toml-front-matter-example'
+	tags = ['General Guide', 'Translation Guide']
+	title = 'TOML example'
+	+++
+
+	{
+		"categories": [
+			"Globalization",
+			"Internationalization",
+			"Localization",
+			"Translation"
+		],
+		"date": "2012-04-06",
+		"description": "An example of front matter writting in JSON.",
+		"slug": "json-front-matter-example",
+		"tags": [
+			"General Guide",
+			"Translation Guide"
+		],
+		"title": "JSON example"
+	}
+
+Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+
+#### Don't translate HTML elements
+
+HTML elements help internet browsers render a webpage. A link on a webpage usually looks like this:
+
+	<a href="https://engagemedia.org/" title="EngageMedia">This is a link that you can click</a>
+
+An image will look like this:
+
+	<img src="https://assets.engagemedia.org/logomark-white.svg" alt="EngageMedia Logomark in White">
+
+There are also semantic that structures a page:
+
+	<header>
+		...
+	</header>
+
+	<article>
+		Some content to the article
+		<br>
+		Another line of this content
+	</article>
+
+	<section>
+		<p id="para1">Some content for this section</p>
+		<p id="para2">Another paragraph in the section</p>
+	</section>
+
+	<aside>
+		<ul>
+			<li>This unordered list</li>
+			<li>probably appears</li>
+			<li>in a sidebar</li>
+		</ul>
+	</side>
+
+	<footer>
+		...
+	</footer>
+
+You should not translate the elements and only do the text that should appear in the target language. Some elements contain attributes like `title` or `alt`. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
 #### Don't start translating without understanding a product
 

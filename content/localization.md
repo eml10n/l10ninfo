@@ -72,7 +72,7 @@ You should note translate these variables or placeholders.
 
 #### Don't translate everything in a front matter
 
-The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains metadata about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
+The [front matter](https://www.npmjs.com/package/front-matter) contains its metadata or parameters for a web page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
 
 	---
 	categories:
@@ -115,7 +115,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 		"title": "JSON example"
 	}
 
-Do not translate the keys and only translate the values that should appear in the target language. In the above example, only the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+Do not translate the keys and only translate the values that should appear in the target language. In the above example, only the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. Do not translate boolean values `true` or `false`. Make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
 #### Don't translate everything in HTML elements
 

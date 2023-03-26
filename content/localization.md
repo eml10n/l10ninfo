@@ -87,7 +87,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 	title = 'TOML example'
 	+++
 
-	{
+		{
 		"categories": [
 			"Globalization",
 			"Internationalization",
@@ -102,7 +102,7 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 			"Translation Guide"
 		],
 		"title": "JSON example"
-	}
+		}
 
 Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 

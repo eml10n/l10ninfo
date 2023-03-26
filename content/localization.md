@@ -160,7 +160,7 @@ You should not translate an HTML tag and only do the text inside the HTML elemen
 
 #### Don't start translating without understanding the product or content
 
-Localization is not just about transforming text of a product or content from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product or content available and accessible in other languages by taking into account the appropriate contexts and experiences of the end-user using or consuming it. This requires you, as a localizer, to understand how the product is used or how the content is consumed from the end-user perspective. If you are not familiar with the product or content you are working on, read articles or watch videos about it on and if possible, ask the project managers to give you a demonstration or overview of the product or content before you begin translating.
+Localization is not just about transforming text of a product or content from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product or content available and accessible in other languages by taking into account the appropriate contexts and experiences of the end-user using or consuming it. This requires you, as a localizer, to understand how the product is used or how the content is consumed from the end-user perspective. If you are not familiar with the product or content you are working on, read articles or watch videos about it on and if possible, ask the project managers to give you a demonstration or a walkthrough of the product or content before you begin translating.
 
 ## See also
 

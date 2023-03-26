@@ -64,6 +64,8 @@ Another way variables or placeholders typically appear in strings is with a sing
 
 	$something1     $something2     $something3
 
+You should note translate these variables or placeholders.
+
 #### Don't translate everything in a front matter
 
 The [front matter](https://www.npmjs.com/package/front-matter) of a web page contains metadata about it. It is used to keep a set of parameters for the page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
@@ -121,7 +123,7 @@ An image has `<img>` tag:
 
 	<img src="https://assets.engagemedia.org/logomark-white.svg" alt="EngageMedia Logomark in White">
 
-Watch out for semantic elements that have English HTML tags:
+Watch out for semantic elements that have HTML tags in English:
 
 	<header>
 		...
@@ -144,7 +146,7 @@ Watch out for semantic elements that have English HTML tags:
 			<li>probably appears</li>
 			<li>in a sidebar</li>
 		</ul>
-	</side>
+	</aside>
 
 	<footer>
 		...

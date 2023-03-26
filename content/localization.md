@@ -32,6 +32,10 @@ You can use the search function in the continuous translation tool that you are 
 
 Use the commenting function to give feedback and ask questions. This helps the localization project managers and other localizers improve the translation. For example, you give feedback to other localizers on how to improve the grammar, style, tone and terminology used in the translation or ask questions to the project managers to get more context and understand the where a particular string might appear in the user interface. 
 
+#### Don't translate if unsure
+
+If you are not sure about the context of a particular string, where it might apear in the user interface, or how it should be formatted, do not translate it. You may skip the string or leave a question in the comments for the project manager to respond.
+
 #### Don't rely on machine translation
 
 While tools like Google Translate and Microsoft Translator are getting better with large language model, they are not always reliable because of the imperfect feedback loop. You may use them to give you suggestions on how to translate a string but they should never be accepted completely without human checking and editing. Relying on machine translation will make the localization review and testing process more difficult and time-consuming as more work needs to be done to ensure consistency and accuracy. 

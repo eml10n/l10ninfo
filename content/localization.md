@@ -106,17 +106,17 @@ The [front matter](https://www.npmjs.com/package/front-matter) of a web page con
 
 Do not translte the keys and only translate the values that should appear in the target language. In the above example, only the the values of `categories`, `description`, `tags`, and `title` should be translated and everything else should be kept the same. And make sure you keep the translated front matter in the same format. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
-#### Don't translate HTML elements
+#### Don't translate everything in HTML elements
 
-HTML elements help internet browsers render a webpage. A link on a webpage usually looks like this:
+HTML elements help internet browsers render a webpage. A link element usually written with HTML tag `<a>`:
 
 	<a href="https://engagemedia.org/" title="EngageMedia">This is a link that you can click</a>
 
-An image will look like this:
+An image has `<img>` tag:
 
 	<img src="https://assets.engagemedia.org/logomark-white.svg" alt="EngageMedia Logomark in White">
 
-There are also semantic that structures a page:
+Watch out for semantic elements that has English HTML tags:
 
 	<header>
 		...
@@ -145,7 +145,7 @@ There are also semantic that structures a page:
 		...
 	</footer>
 
-You should not translate the elements and only do the text that should appear in the target language. Some elements contain attributes like `title` or `alt`. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
+You should not translate the HTML tags and only do the text inside the HTML element that should appear in the target language. Some HTML tags contain attributes like `title`, `alt`, `description`, and others. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
 #### Don't start translating without understanding a product
 

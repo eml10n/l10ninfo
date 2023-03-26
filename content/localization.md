@@ -72,7 +72,7 @@ You should note translate these variables or placeholders.
 
 #### Don't translate everything in a front matter
 
-The [front matter](https://www.npmjs.com/package/front-matter) contains its metadata or parameters for a web page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
+The [front matter](https://www.npmjs.com/package/front-matter) contains metadata or parameters for a web page. It is typically written as a set of keys and values in TOML, YML/YAML, or JSON. For example:
 
 	---
 	categories:

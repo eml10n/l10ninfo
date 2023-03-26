@@ -158,9 +158,9 @@ Watch out for semantic elements that have HTML tags in English:
 
 You should not translate an HTML tag and only do the text inside the HTML element that should appear in the target language. Some HTML tags contain attributes like `title`, `alt`, `description`, and others. You should only translate the values of these attributes if it makes sense. Do not translate values to `id`, `class`, or other similar attributes. If you are unsure, skip strings like this or ask the project managers to provide guidance.
 
-#### Don't start translating without understanding a product
+#### Don't start translating without understanding the product or content
 
-Localization is not just about transforming text from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product available and accessible in other languages taking into account the appropriate contexts and experiences of the end-user using the product. This requires you, as a localizer, to understand how the product works from the end-user perspective. If you are not familiar with the product you are working on, read articles or watch videos about it on and if possible, ask the project managers to give you a product demonstration before you begin translating.
+Localization is not just about transforming text of a product or content from one language into another without changing its meaning. Beyond that, the purpose of localization is to make the product or content available and accessible in other languages by taking into account the appropriate contexts and experiences of the end-user using or consuming it. This requires you, as a localizer, to understand how the product is used or how the content is consumed from the end-user perspective. If you are not familiar with the product or content you are working on, read articles or watch videos about it on and if possible, ask the project managers to give you a demonstration or overview of the product or content before you begin translating.
 
 ## See also
 

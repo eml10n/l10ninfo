@@ -6,4 +6,4 @@ title: Localization Community Knowledge Base
 
 The project primarily aims to enhance the effectiveness of digital security initiatives in Southeast Asia by providing and promoting resources tailored to cultural and linguistic contexts. It focuses on five target languages: Burmese, Filipino, Indonesian, Khmer, and Thai. This site serves as a platform for experienced and novice localizers to exchange knowledge and share their work.
 
-This site is built using [Hugo static site generator](https://gohugo.io/) and is maintained in a [respository on GitLab](https://gitlab.com/eml10n/l10ninfo). Once you have access, you may start contribute by creating new Markdown pages or edit existing ones using GitLab Web IDE and commit changes to the main branch of the repository.
+[Give online and support localization initiatives](https://buy.stripe.com/6oE8Alf3Pb6D83S288) by EngageMedia to help make digital technology for human rights activists more accessible and readily available in local languages in the Asia Pacific.
